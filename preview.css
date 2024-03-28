@@ -1,0 +1,182 @@
+html{
+    font-size: 16px;
+    font-family: 'Figtree', sans-serif;
+}
+body{
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+}
+
+
+    #main-div{
+
+        border:2px solid black;
+        height: 550px;
+        width: 350px;
+        margin-top: 150px;
+        border-radius: 25px;
+        box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.75);
+        background-color: white;
+    }
+
+    #image{
+
+    
+        height: 190px;
+        width: 90%;
+        margin: 0px 0px 0px 17px;
+        position: relative;
+        overflow: hidden;
+        top: 25px;
+        border-radius: 25px;
+        
+    }
+    #heading{
+
+        position: relative;
+        top: 10px;
+        left: 30px;
+        color:  hsl(0, 0%, 7%);
+        font-size: 1.4rem;
+        font-weight: 700;
+    
+    }
+
+    #topic{
+
+        position: relative;
+        top: 20px;
+        font-size: 1 rem;
+        left: 30px;
+        width: fit-content;
+        padding: 5px 10px 5px 10px;
+        border-radius: 10px;
+        background-color: hsl(47, 88%, 63%);
+        font-weight: 700;
+        color:  hsl(0, 0%, 7%);
+    }
+
+    #date{
+        position: relative;
+        top: 15px;
+        font-size: 0.9rem;
+        left: 30px;
+        font-weight: 400;
+    }
+
+    #content{
+
+        position: relative;
+        top: 5px;
+        margin-left: 30px;
+        margin-right: 15px;
+        font-size: 0.9rem;
+        color: hsl(0, 0%, 50%);
+    }
+    #author{
+
+        position: relative;
+        top: 15px;
+        left: 30px;
+        display: flex;
+        flex-direction: row;
+    }
+    #name{
+    
+        margin-top: 20px;
+        margin-left: 15px;
+        font-size: 0.9rem;
+        font-weight: 600;
+    }
+    
+    
+@media (min-width : 375px){
+
+#main-div{
+
+    border:2px solid black;
+    height: 600px;
+    width: 450px;
+    margin-top: 100px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.75);
+    background-color: white;
+
+
+}
+#image{
+
+    
+    height: 250px;
+    width: 90%;
+    margin: 0px 0px 0px 20px;
+    position: relative;
+    overflow: hidden;
+    top: 25px;
+    border-radius: 25px;
+    
+}
+
+#topic{
+
+    position: relative;
+    top: 15px;
+    font-size: 1 rem;
+    left: 30px;
+    width: fit-content;
+    padding: 5px 10px 5px 10px;
+    border-radius: 15px;
+    background-color: hsl(47, 88%, 63%);
+    font-weight: 800;
+    color:  hsl(0, 0%, 7%);
+}
+
+#date{
+    position: relative;
+    top: 15px;
+    font-size: 1rem;
+    left: 30px;
+    font-weight: 500;
+}
+
+#heading{
+
+    position: relative;
+    top: 5px;
+    left: 30px;
+    color:  hsl(0, 0%, 7%);
+    font-size: 1.5rem;
+    font-weight: 800;
+
+}
+
+
+#content{
+
+    position: relative;
+    top: 5px;
+    margin-left: 30px;
+    margin-right: 15px;
+    font-size: 1.2rem;
+    color: hsl(0, 0%, 50%);
+}
+
+#author{
+
+    position: relative;
+    top: 15px;
+    left: 30px;
+    display: flex;
+    flex-direction: row;
+}
+#name{
+
+    margin-top: 20px;
+    margin-left: 15px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+
+    }
